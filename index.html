@@ -1,72 +1,243 @@
 <!DOCTYPE html>
 
 <html lang="pt-br">
+  <head>
+    <title>Escola Xavier</title>
 
-<head>
-    <title>
-        Escola Xavier
-    </title>
-
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- bootstrap -->
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"
+    />
 
     <!-- estilo -->
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
 
     <!-- script js-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-</head>
 
-<body>
+    <!-- fonte awesome -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+
+  <body>
     <nav class="navbar-inverse myNavbar">
+      <div class="navbar-header">
+        <button
+          type="button"
+          class="navbar-toggle"
+          data-toggle="collapse"
+          data-target="#myNavbar"
+        >
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
 
-        <div class="navbar-header">
+        <a href="#" class="navbar-brand"> Escola St.Xavier </a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li>
+            <a href="#vida_no_campus">Vida no campus</a>
+          </li>
 
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
+          <li>
+            <a href="#conquistas">Conquistas</a>
+          </li>
 
-            <a href="#" class="navbar-brand">
-                Escola St.Xavier
-            </a>
+          <li>
+            <a href="">O que há de novo</a>
+          </li>
 
-        </div>
-        <div class="collapse navbar-collapse"
-        id="myNavbar">
-            <ul class="nav navbar-nav">
-
-
-                <li>
-                    <a href="">Vida no campus</a>
-                    
-                </li>
-
-                <li>
-                      <a href="">Conquistas</a>
-                    
-                </li>
-
-                <li>
-                    <a href="">O que há de novo</a>
-                    
-                </li>
-
-                <li>
-                    <a href="">Entre em contato</a>
-                    
-                </li>
-            </ul>
-        </div>
+          <li>
+            <a href="">Entre em contato</a>
+          </li>
+        </ul>
+      </div>
     </nav>
 
-    <iframe width="100%" height="360" src="https://www.youtube.com/embed/9Frow8HMh74" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</body>
+    <iframe
+      width="100%"
+      height="360"
+      src="https://www.youtube.com/embed/9Frow8HMh74"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
 
+    <div class="container">
+      <section id="vida_no_campus">
+        <h2 class="page-header">Vida no campus</h2>
+
+        <div class="divPrincipal">
+          <img src="imagens/church.jpg" alt="" />
+
+          <h4 class="text-capitalize">
+            <kbd> Igreja da escola </kbd>
+          </h4>
+
+          <br />
+          <h5 class="text-success text-capitalize">Foi construida em 1980</h5>
+
+          <p class="text-muted">
+            A igreja foi construida pela familia Martins no ano de 1980.
+          </p>
+        </div>
+
+        <br />
+        <br />
+
+        <div class="divPrincipal">
+          <img src="imagens/st3.jpg" alt="" />
+
+          <h4 class="text-capitalize">
+            <kbd> Auditorio da escola </kbd>
+          </h4>
+
+          <h5 class="text-success text-capitalize">Foi construido em 1980</h5>
+
+          <p class="text-muted">
+            O auditorio e um espaço onde nossos alunos fazem apresentaçoes
+            culturais
+          </p>
+        </div>
+
+        <br />
+        <br />
+
+        <div class="divPrincipal">
+          <img src="imagens/st2.jpg" alt="" />
+
+          <h4 class="text-capitalize">
+            <kbd> Biblioteca da escola </kbd>
+          </h4>
+
+          <h5 class="text-success text-capitalize">Foi construida em 1980</h5>
+
+          <p class="text-muted">
+            A biblioteca e um agradavel espaço de estudo para nossos alunos
+          </p>
+        </div>
+      </section>
+
+      <section>
+        <h2 class="page-header text-capitalize" id="conquistas">
+          Conquistas da escola
+        </h2>
+
+        <div
+          class="bg-primary conquista_head"
+          data-toggle="collapse"
+          data-target="#conquistaDaEscola1"
+        >
+          Debate interescolar sobre poluiçao ambiental
+
+          <i class="fa fa-sort-desc"></i>
+        </div>
+
+        <div id="conquistaDaEscola1" class="collapse">
+          <div class="conquistas_text">
+            <img
+              src="imagens/se1.jpg"
+              alt=""
+              class="img-responsive img-thumbnail"
+            />
+
+            <h5 class="text-success text-capitalize">
+              Ganhamos o premio de primeiro lugar no debate interescolar sobre
+              poluiçao ambiental
+
+              <span class="glyphicon glyphicon-star"> </span>
+
+              <span class="glyphicon glyphicon-star"> </span>
+
+              <span class="glyphicon glyphicon-star"> </span>
+
+              <span class="glyphicon glyphicon-star"> </span>
+
+              <span class="glyphicon glyphicon-star"> </span>
+            </h5>
+          </div>
+        </div>
+
+        <div
+          class="bg-primary conquista_head"
+          data-toggle="collapse"
+          data-target="#conquistaDaEscola2"
+        >
+          Competiçao interescolar de futebol
+
+          <i class="fa fa-sort-desc"></i>
+        </div>
+
+        <div id="conquistaDaEscola2" class="collapse">
+          <div class="conquistas_text">
+            <img
+              src="imagens/sm2.jpg"
+              alt=""
+              class="img-responsive img-thumbnail"
+            />
+
+            <h5 class="text-success text-capitalize">
+              Ficamos em segundo lugar na competiçao de futebol
+
+              <span class="glyphicon glyphicon-star"> </span>
+
+              <span class="glyphicon glyphicon-star"> </span>
+
+              <span class="glyphicon glyphicon-star"> </span>
+
+              <span class="glyphicon glyphicon-star"> </span>
+
+              <span class="glyphicon glyphicon-star"> </span>
+            </h5>
+          </div>
+        </div>
+
+        <div
+          class="bg-primary conquista_head"
+          data-toggle="collapse"
+          data-target="#conquistaDaEscola3"
+        >
+          Competiçao interescolar de ciencias
+          <i class="fa fa-sort-desc"></i>
+        </div>
+
+        <div id="conquistaDaEscola3" class="collapse">
+          <div class="conquistas_text">
+            <img
+              src="imagens/sm3.jpg"
+              alt=""
+              class="img-responsive img-thumbnail"
+            />
+
+            <h5 class="text-success text-capitalize">
+              Ficamos em primeiro lugar na competiçao interescolar de ciencias
+
+              <span class="glyphicon glyphicon-star"> </span>
+
+              <span class="glyphicon glyphicon-star"> </span>
+
+              <span class="glyphicon glyphicon-star"> </span>
+
+              <span class="glyphicon glyphicon-star"> </span>
+
+              <span class="glyphicon glyphicon-star"> </span>
+            </h5>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
 </html>

@@ -7,3 +7,36 @@ body {
     top: 0;
     z-index: 10000;
 }
+
+.divPrincipal {
+
+    border: 1px solid lightgray;
+}
+
+.divPrincipal img {
+
+    width: 100%;
+
+}
+
+.divPrincipal h5, .divPrincipal p {
+
+    margin: 20px;
+}
+
+.conquista_head {
+    font-size: 20px;
+    padding: 6px 22px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+
+}
+
+.conquista_head i {
+    float: right;
+}
+
+.conquistas_text span {
+    color: rgb(255, 255, 61);
+
+}
